@@ -16,6 +16,10 @@
 	padding: 0;
 }
 
+.btn {
+    background-color: rgb(171, 0, 255) + rgb(16, 10, 187);
+}
+
 .button-styles(@type){
 	// .main__button--danger
 	&--@{type} {
@@ -42,9 +46,13 @@
             background: darken(@@type, 25%);
             color: mix(rgba(255, 255, 255, 1), rgba(255, 255, 255, .5), 50%);
             font-size: 70%;
+            width: 1px;
+            height: 20px;
         }
     }
 }
+
+
 
 .tile-styles(@type) {
 	// .main__tile--danger
@@ -80,6 +88,7 @@ a {
 	background-color: #fff;
 	overflow: hidden;
 }
+
 
 .mynav {
 	display: flex;

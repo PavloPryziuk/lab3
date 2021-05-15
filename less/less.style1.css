@@ -2,7 +2,10 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+.btn {
+  background-color: #bb0aff;
 }
 * {
   transition: 0.3s all;
@@ -154,6 +157,8 @@ a {
   background: #3a06ff;
   color: rgba(255, 255, 255, 0.75);
   font-size: 70%;
+  width: 1px;
+  height: 20px;
 }
 .main__button--primary {
   border-color: #1BC98E;
